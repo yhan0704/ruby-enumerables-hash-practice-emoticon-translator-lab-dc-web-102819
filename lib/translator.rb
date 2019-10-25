@@ -14,7 +14,7 @@ def load_library(file_path)
     new_hash['get_meaning'][value[1]] = key
   end
 
-  new_hash
+ pp new_hash
 end
 
 def get_japanese_emoticon(file_path, emoticon)
